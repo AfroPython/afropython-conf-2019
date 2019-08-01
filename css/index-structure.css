@@ -6,7 +6,7 @@
 
 .menu ul {
     display: flex;
-    margin-right: 7%;
+    margin-right: 6%;
 }
 
 .menu li {
@@ -20,4 +20,5 @@
 
 .menu li a {
     text-decoration: none;
+    font-size: 1em;
 }

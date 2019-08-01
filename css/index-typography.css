@@ -1,7 +1,19 @@
+html { font-size: calc(0.5em + 1vw) }
+
 body {
     font-family: 'Lato', sans-serif;
 }
 
 .menu .item-separation {
-    border-right-color: gray;
+    border-right-color: #c0c0c0;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-size: 1em;
+    color: #444444
+}
+
+.menu li a:hover {
+    color: black;
 }
