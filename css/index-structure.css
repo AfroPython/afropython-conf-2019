@@ -1,0 +1,23 @@
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.menu ul {
+    display: flex;
+    margin-right: 7%;
+}
+
+.menu li {
+    padding-left: 11px;
+    padding-right: 11px;
+}
+
+.menu .item-separation {
+    border-right: solid 2px;
+}
+
+.menu li a {
+    text-decoration: none;
+}
