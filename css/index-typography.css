@@ -4,16 +4,68 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-.menu .item-separation {
-    border-right-color: #c0c0c0;
+hr {
+    border: 0;
+    border-top: 1px solid #ccc;
 }
 
 .menu li a {
     text-decoration: none;
-    font-size: 1em;
+    font-size: 0.8em;
     color: #444444
 }
 
 .menu li a:hover {
     color: black;
+}
+
+.menu .item-separation {
+    border-right-color: #c0c0c0;
+}
+
+.event-section .information h1 {
+    font-size: 2em;
+    line-height: 1.1;
+    color: #606060;
+    font-weight: lighter;
+}
+
+.event-section .information .description {
+    font-size: 0.7em;
+    line-height: 1.4;
+    font-weight: lighter;
+    color: #606060;
+}
+
+.event-section .information .links a {
+    text-decoration: none;
+    font-size: 0.8em;
+    font-weight: lighter;
+    border-radius: 2px;
+}
+
+.event-section .information .links a:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+
+.event-section .information .links .c4p {
+    background-color: #606060;
+    color: #ebebeb;
+}
+
+.event-section .information .links .tickets {
+    background-color: #ebebeb;
+    color: #606060;
+}
+
+.event-section .logistics .date {
+    font-size: 2em;
+    color: #606060;
+    font-weight: lighter;
+}
+
+.event-section .logistics .venue {
+    font-size: 0.9em;
+    color: #606060;
+    font-weight: lighter;
 }

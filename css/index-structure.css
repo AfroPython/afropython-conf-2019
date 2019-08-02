@@ -1,12 +1,14 @@
+hr {
+    display: block;
+    height: 1px;
+    margin: 1em 0.6em;
+    padding: 0;
+}
+
 .menu {
     display: flex;
     justify-content: flex-end;
     margin-top: 20px;
-}
-
-.menu li a {
-    text-decoration: none;
-    font-size: 1em;
 }
 
 .menu ul {
@@ -23,3 +25,42 @@
     border-right: solid 2px;
 }
 
+.event-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    margin: 55px 90px 25px 90px;
+}
+
+.event-section div {
+    width: 330px;
+}
+
+.event-section .information .description {
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.event-section .information .links .c4p {
+    padding: 7px 30px 7px 30px;
+    align-self: flex-start;
+}
+
+.event-section .information .links .tickets {
+    padding: 8px 40px 8px 40px;
+    align-self: flex-end;
+}
+
+.event-section .information .links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.event-section .logistics .venue {
+    margin-top: 40px;
+}
+
+.event-section .logistics .date {
+    margin-bottom: 15px;
+}
