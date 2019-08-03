@@ -20,7 +20,7 @@ O CSS foi dividido entre _estrutura_ e _tipografia_. Todo o css relacionado a es
 
 - Remova o grupo de classes: `.sponsors-section .placeholder p` do arquivo [index-typography.css](css/index-structure.css)
 - Remova o grupo de classes: `.sponsors-section .placeholder` do arquivo [index-structure.css](css/index-structure.css)
-- Adicione o primeiro patrocinador descomentando a linha `display:flex` do grupo de classes `.sponsors-section .list .info` e excluir a linha `display:none` do aquivo [index-structure.css](css/index-structure.css):
+- Adicione o primeiro patrocinador descomentando a linha `display:flex` do grupo de classes `.sponsors-section .list .info` e excluir a linha `display:none` no aquivo [index-structure.css](css/index-structure.css):
 
 #### Antes
 
@@ -64,6 +64,61 @@ Onde:
 - `Lorem ipsum dolor sit amet...` é uma breve bio/descrição/slogan do patrocinador;
 
 *_OBS.:_* é importante que a `<div class="info">...</div>` esteja dentro da `<div class="list">...</div>` ~~se não vai cagar o css tudo~~ não vai funcionar.
+
+## Adicionando Programação
+
+### CSS
+
+- Remova o grupo de classes: `.schedule-section .placeholder p` do arquivo [index-typography.css](css/index-structure.css)
+- Remova o grupo de classes: `.schedule-section .placeholder` do arquivo [index-structure.css](css/index-structure.css)
+- Adicione o primeiro patrocinador descomentando a linha `display:flex` do grupo de classes `.schedule-section .tables` e excluir a linha `display:none` no aquivo [index-structure.css](css/index-structure.css):
+
+#### Antes
+
+```css
+.schedule-section .tables {
+    /* display: flex; */
+    display: none;
+    margin-top: 40px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+}
+```
+
+#### Depois
+
+```css
+.schedule-section .tables {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+}
+```
+
+### HTML
+
+- Remova a div `<div class="placeholder">...</div>`
+- Adicione um novo patrocinador replicando o seguinte trecho e código:
+
+```html
+<div class="attraction" >
+    <p class="time">Horário 1</p>
+
+    <div class="description">
+        <p>Palestra Super Legal</p>
+        <p>Autora muito massa</p>
+    </div>
+</div>
+```
+
+Onde:
+
+- `Horário 1` é o horário da atração;
+- `Palestra Super Legal` é o título da palestra;
+- `Autora muita massa` é o nome da pessoa palestrante;
 
 ## Como colaborar
 
