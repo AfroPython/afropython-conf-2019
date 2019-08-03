@@ -69,3 +69,31 @@ hr {
     color: #606060;
     font-weight: lighter;
 }
+
+.sponsors-section h2 {
+    font-size: 1.5em;
+    color: #606060;
+    font-weight: lighter;
+}
+
+.sponsors-section .header a {
+    text-decoration: none;
+    font-size: 0.8em;
+    font-weight: lighter;
+    border-radius: 2px;
+    background-color: #606060;
+    color: #ebebeb;
+}
+
+.sponsors-section .placeholder p {
+    font-size: 2em;
+    color: #606060;
+    font-weight: lighter;
+}
+
+.sponsors-section .list .info p {
+    font-size: 0.7em;
+    font-weight: lighter;
+    color: #606060;
+    line-height: 1.1;
+}

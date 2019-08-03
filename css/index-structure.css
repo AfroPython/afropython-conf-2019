@@ -49,7 +49,6 @@ hr {
 
 .event-section .information .links .tickets {
     padding: 8px 40px 8px 40px;
-    align-self: flex-end;
 }
 
 .event-section .information .links {
@@ -64,3 +63,46 @@ hr {
 .event-section .logistics .date {
     margin-bottom: 15px;
 }
+
+.sponsors-section {
+    margin: 20px 90px 20px 90px;
+}
+
+.sponsors-section .header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sponsors-section .header a {
+    padding: 8px 40px 8px 40px;
+}
+
+.sponsors-section .placeholder {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.sponsors-section .list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+
+}
+
+.sponsors-section .list .info {
+    /* display: flex; */
+    display: none;
+    flex-direction: column;
+    width: 33%;
+    text-align: center;
+}
+
+.sponsors-section img{
+    width: 200px;
+    align-self: center;
+    margin: 45px 0 15px 0;
+}
+
+
