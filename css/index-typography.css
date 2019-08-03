@@ -85,6 +85,10 @@ hr {
     color: #ebebeb;
 }
 
+.sponsors-section .header a:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+
 .sponsors-section .placeholder p {
     font-size: 2em;
     color: #606060;
@@ -96,4 +100,37 @@ hr {
     font-weight: lighter;
     color: #606060;
     line-height: 1.1;
+}
+
+.schedule-section .placeholder p {
+    font-size: 2em;
+    color: #606060;
+    font-weight: lighter;
+}
+
+.schedule-section h2 {
+    font-size: 1.5em;
+    color: #606060;
+    font-weight: lighter;
+}
+
+.schedule-section .tables {
+    font-size: 0.8em;
+    font-weight: lighter;
+}
+
+.schedule-section .tables .day .info{
+    font-size: 1.1em;
+}
+
+.schedule-section .tables .attraction .time {
+    background-color: #606060;
+    color: #ebebeb;
+    border-top: solid #606060 1px;
+}
+
+.schedule-section .tables .attraction .description {
+    line-height: 1.4;
+    background-color: #ebebeb;
+    color: #606060;
 }

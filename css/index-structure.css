@@ -99,10 +99,54 @@ hr {
     text-align: center;
 }
 
-.sponsors-section img{
+.sponsors-section img {
     width: 200px;
     align-self: center;
     margin: 45px 0 15px 0;
+}
+
+.schedule-section {
+    margin: 20px 90px 20px 90px;
+}
+
+.schedule-section .placeholder {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.schedule-section .tables {
+    /* display: flex; */
+    display: none;
+    margin-top: 40px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+}
+
+.schedule-section .tables .day {
+    display: flex;
+    flex-direction: column;
+}
+
+.schedule-section .tables .day .info{
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+.schedule-section .tables .attraction {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-bottom: 2px;
+}
+
+.schedule-section .tables .attraction .time {
+    padding: 31px;
+}
+
+.schedule-section .tables .attraction .description {
+    padding: 15px 100px;
 }
 
 
