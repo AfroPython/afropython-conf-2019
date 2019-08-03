@@ -134,3 +134,16 @@ hr {
     background-color: #ebebeb;
     color: #606060;
 }
+
+.venue-section h2 {
+    font-size: 1.5em;
+    color: #606060;
+    font-weight: lighter;
+}
+
+.venue-section .information .address {
+    font-size: 1em;
+    font-weight: lighter;
+    color: #606060;
+    line-height: 1.1;
+}

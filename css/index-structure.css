@@ -149,4 +149,24 @@ hr {
     padding: 15px 100px;
 }
 
+.venue-section {
+    margin: 20px 90px 20px 90px;
+}
+
+.venue-section .information {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+}
+
+.venue-section .information .address {
+    padding-top:60px;
+    width:500px;
+}
+.venue-section .information .map iframe {
+    width: 480px;
+    height: 380px;
+}
+
 
