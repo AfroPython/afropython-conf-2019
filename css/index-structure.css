@@ -164,9 +164,59 @@ hr {
     padding-top:60px;
     width:500px;
 }
+
 .venue-section .information .map iframe {
     width: 480px;
     height: 380px;
 }
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+}
+
+footer .information {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 40px;
+}
+
+footer .information .description {
+    margin: 20px 0;
+}
+
+footer .links {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    padding: 40px;
+}
+
+footer .links .actions {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+}
+
+footer .links .actions a {
+    padding: 8px 30px;
+}
+
+footer .links .social {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    margin-top: 60px;
+}
+
+footer .links .social i {
+    padding: 20px;
+}
+
 
 

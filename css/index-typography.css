@@ -147,3 +147,56 @@ hr {
     color: #606060;
     line-height: 1.1;
 }
+
+footer {
+    background-color: #606060;
+    font-weight: lighter;
+}
+
+footer .information {
+    color: #ebebeb;;
+    line-height: 1.4;
+}
+
+footer .information h2 {
+    font-size: 1.2em;
+}
+
+footer .information .description {
+    font-size: 0.75em;
+}
+
+footer .information .copyright {
+    font-size: 0.55em;
+}
+
+footer .links .actions a {
+    text-decoration: none;
+    font-size: 0.8em;
+    font-weight: lighter;
+    border-radius: 2px;
+}
+
+footer .links .actions a:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+
+footer .links .actions .c4p {
+    background-color: #c0c0c0;
+    color: #606060;
+}
+
+footer .links .actions .tickets {
+    background-color: #ebebeb;
+    color: #606060;
+}
+
+footer .links .social i {
+    border-radius: 30px;
+    background-color: #ebebeb;
+    color: #606060;
+}
+
+footer .links .social i:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
