@@ -1,3 +1,13 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
 hr {
     display: block;
     height: 1px;
@@ -166,8 +176,8 @@ hr {
 }
 
 .venue-section .information .map iframe {
-    width: 480px;
-    height: 380px;
+    width: 450px;
+    height: 250px;
 }
 
 footer {
