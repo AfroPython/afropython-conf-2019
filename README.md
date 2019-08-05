@@ -120,25 +120,9 @@ Onde:
 - `Palestra Super Legal` é o título da palestra;
 - `Autora muita massa` é o nome da pessoa palestrante;
 
-## Como alterar o mapa do local
+## Deploy
 
-1. Acesse o site https://www.embedgooglemap.net/ e copiei o código `src` gerado após buscar por endereço:
-
-![imagem do site mostrando o código a ser copiado](img/map.png)
-
-2. Cole esse código no lugal do `src` atual:
-
-```html
-<div class="map">
-    <iframe
-        src="https://maps.google.com/maps?q=uniritter%20iguatemi&t=&z=15&ie=UTF8&iwloc=&output=embed"
-        frameborder="0"
-        scrolling="no"
-        marginheight="0"
-        marginwidth="0">
-    </iframe>
-</div>
-```
+Para fazer o deploy basta mergear o pull request com a master e acessar: https://afropython.github.io/afropython-conf-2019/
 
 ## Como colaborar
 
