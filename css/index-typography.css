@@ -210,5 +210,10 @@ footer .links .social i:hover {
     .menu li a {
         line-height: 1.5;
         cursor: pointer;
+        color: #ffffff;
+    }
+
+    .menu li a:hover {
+        color: #ffffff;
     }
 }

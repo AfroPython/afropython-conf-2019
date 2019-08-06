@@ -20,6 +20,9 @@ hr {
     justify-content: flex-end;
     margin-top: 20px;
 }
+.menu label, #hamburger {
+    display: none;
+}
 
 .menu ul {
     display: flex;
@@ -230,15 +233,49 @@ footer .links .social i {
 
 @media only screen and (max-width: 600px) {
     .menu {
-        justify-content: flex-start;
+        position: fixed;
+        width: 100%;
+        margin-top: 0;
     }
+
+    .menu label {
+        display: inline-block;
+        color: #fff;
+        background: #606060;
+        font-size: 1.2em;
+        padding: 10px;
+      }
 
     .menu ul {
         flex-direction: column;
+        position: absolute;
+        width: 80%;
+        height: 100vh;
+        overflow: visible;
+        margin-top: 10%;
+        background-color: #606060;
+        color: #ffffff;
+    }
+
+    .menu ul {
+        display: none;
+    }
+
+    .menu ul li {
+        padding: 20px 20px;
+    }
+
+    .menu input:checked ~ ul {
+        display: block;
     }
 
     .menu .item-separation {
         border-right: 0;
+    }
+
+    .venue-section .information .map iframe {
+        width: 250px;
+        height: 200px;
     }
 
     .event-section {
