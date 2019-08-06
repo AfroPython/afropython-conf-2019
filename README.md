@@ -16,7 +16,7 @@ O CSS foi dividido entre _estrutura_ e _tipografia_. Todo o css relacionado a es
 
 ## Mudando a aparência do site
 
-Mudanças como cores, fontes, tamanho de fontes, espaçamento entre caracteres, estilos, etc __DEVEM SER FEITOS__ no arquivo `ndex-typography.css` para seguir o padrão escolhido.
+Mudanças como cores, fontes, tamanho de fontes, espaçamento entre caracteres, estilos, etc __DEVEM SER FEITOS__ no arquivo `index-typography.css` para seguir o padrão escolhido.
 
 ## Adicionando Patrocinador
 
