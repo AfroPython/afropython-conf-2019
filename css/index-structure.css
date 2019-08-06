@@ -228,5 +228,32 @@ footer .links .social i {
     padding: 20px;
 }
 
+@media only screen and (max-width: 600px) {
+    .menu {
+        justify-content: flex-start;
+    }
 
+    .menu ul {
+        flex-direction: column;
+    }
 
+    .menu .item-separation {
+        border-right: 0;
+    }
+
+    .event-section {
+        margin: 55px 25px;
+    }
+
+    .sponsors-section {
+        margin: 20px 20px;
+    }
+
+    .schedule-section {
+        margin: 20px 20px;
+    }
+
+    .venue-section {
+        margin: 20px 20px;
+    }
+}

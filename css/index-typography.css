@@ -201,3 +201,14 @@ footer .links .social i {
 footer .links .social i:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
 }
+
+@media only screen and (max-width: 600px) {
+    html { 
+        font-size: calc(0.7em + 1vw) 
+    }
+
+    .menu li a {
+        line-height: 1.5;
+        cursor: pointer;
+    }
+}
