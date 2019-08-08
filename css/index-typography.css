@@ -211,6 +211,7 @@ footer .links .social i:hover {
         line-height: 1.5;
         cursor: pointer;
         color: #ffffff;
+        text-transform: uppercase;
     }
 
     .menu li a:hover {

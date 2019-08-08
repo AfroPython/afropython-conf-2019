@@ -236,12 +236,15 @@ footer .links .social i {
         position: fixed;
         width: 100%;
         margin-top: 0;
+        background: #b1b1b1;
+        height: 40px;
+
     }
 
     .menu label {
         display: inline-block;
         color: #fff;
-        background: #606060;
+        background: #b1b1b1;
         font-size: 1.2em;
         padding: 10px;
       }
@@ -249,16 +252,16 @@ footer .links .social i {
     .menu ul {
         flex-direction: column;
         position: absolute;
-        width: 80%;
         height: 100vh;
         overflow: visible;
-        margin-top: 10%;
+        margin-top: 40px;
         background-color: #606060;
         color: #ffffff;
     }
 
     .menu ul {
-        display: none;
+        width: 0;
+        transition: width .3s ease-in-out;
     }
 
     .menu ul li {
@@ -266,7 +269,9 @@ footer .links .social i {
     }
 
     .menu input:checked ~ ul {
-        display: block;
+        overflow:hidden;
+        width: 80%;
+        transition: width .3s ease-in-out;
     }
 
     .menu .item-separation {
