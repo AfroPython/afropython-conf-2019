@@ -278,9 +278,32 @@ footer .links .social i {
         border-right: 0;
     }
 
+    .venue-section .information .map {
+        margin: 0 auto;
+    }
+
     .venue-section .information .map iframe {
         width: 250px;
         height: 200px;
+    }
+
+    .venue-section .information .address {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .sponsors-section .header {
+        flex-direction: column;
+    }
+
+    .sponsors-section .header a {
+        width: 40%;
+        margin-top: 5%;
+    }
+
+    .sponsors-section .placeholder {
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
 
     .event-section {
@@ -297,5 +320,9 @@ footer .links .social i {
 
     .venue-section {
         margin: 20px 20px;
+    }
+
+    .logistics {
+        padding-top: 10px;
     }
 }
