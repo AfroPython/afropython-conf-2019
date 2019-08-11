@@ -20,6 +20,9 @@ hr {
     justify-content: flex-end;
     margin-top: 20px;
 }
+.menu label, #hamburger {
+    display: none;
+}
 
 .menu ul {
     display: flex;
@@ -228,5 +231,99 @@ footer .links .social i {
     padding: 20px;
 }
 
+@media only screen and (max-width: 600px) {
+    .menu {
+        position: fixed;
+        width: 100%;
+        margin-top: 0;
+        background: #b1b1b1;
+        height: 40px;
 
+    }
 
+    .menu label {
+        display: inline-block;
+        color: #fff;
+        background: #b1b1b1;
+        font-size: 1.2em;
+        padding: 10px;
+      }
+
+    .menu ul {
+        flex-direction: column;
+        position: absolute;
+        height: 100vh;
+        overflow: visible;
+        margin-top: 40px;
+        background-color: #606060;
+        color: #ffffff;
+    }
+
+    .menu ul {
+        width: 0;
+        transition: width .3s ease-in-out;
+    }
+
+    .menu ul li {
+        padding: 20px 20px;
+    }
+
+    .menu input:checked ~ ul {
+        overflow:hidden;
+        width: 80%;
+        transition: width .3s ease-in-out;
+    }
+
+    .menu .item-separation {
+        border-right: 0;
+    }
+
+    .venue-section .information .map {
+        margin: 0 auto;
+    }
+
+    .venue-section .information .map iframe {
+        width: 250px;
+        height: 200px;
+    }
+
+    .venue-section .information .address {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .sponsors-section .header {
+        align-items: center;
+    }
+
+    .sponsors-section .header a {
+        padding: 8px 20px 8px 20px;
+        margin-left: 20px;
+        text-align: center;
+    }
+
+    .sponsors-section .placeholder {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .event-section {
+        margin: 55px 25px;
+    }
+
+    .sponsors-section {
+        margin: 20px 20px;
+    }
+
+    .schedule-section {
+        margin: 20px 20px;
+    }
+
+    .venue-section {
+        margin: 20px 20px;
+    }
+
+    .logistics {
+        padding-top: 40px;
+    }
+}
