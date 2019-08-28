@@ -40,15 +40,23 @@ hr {
 
 .event-section {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    flex-flow: row wrap;
-    margin: 55px 90px 25px 90px;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    background-image: url('../img/DSC_0245.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 75vh;
 }
 
-.event-section div {
-    width: 330px;
+.event-section .logo {
+    margin-bottom: 40px;
 }
+
+.event-section .logo img {
+    width: 400px;
+}
+
 
 .event-section .information .description {
     margin-top: 25px;
@@ -67,6 +75,7 @@ hr {
 .event-section .information .links {
     display: flex;
     justify-content: space-between;
+    padding: 0 20px;
 }
 
 .event-section .logistics .venue {
