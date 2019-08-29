@@ -4,38 +4,31 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-hr {
-    border: 0;
-    border-top: 1px solid #ccc;
+.separator {
+    background-image: url(../img/divisor.png);
+    background-size: contain;
 }
 
 .menu li a {
     text-decoration: none;
     font-size: 0.95em;
-    color: #606060;
+    color: #512c0b;
     font-weight: lighter;
 }
 
 .menu li a:hover {
-    color: black;
+    font-weight: normal;
 }
 
 .menu .item-separation {
-    border-right-color: #c0c0c0;
-}
-
-.event-section .information h1 {
-    font-size: 2em;
-    line-height: 1.1;
-    color: #606060;
-    font-weight: lighter;
+    border-right-color: #d45d0d;
 }
 
 .event-section .information .description {
     font-size: 0.7em;
     line-height: 1.4;
-    font-weight: lighter;
-    color: #606060;
+    font-weight: 400;
+    color: #512c0b;
 }
 
 .event-section .information .links a {
@@ -50,13 +43,13 @@ hr {
 }
 
 .event-section .information .links .c4p {
-    background-color: #606060;
+    background-color: #d12809;
     color: #ebebeb;
 }
 
 .event-section .information .links .tickets {
-    background-color: #ebebeb;
-    color: #606060;
+    background-color: #3e5820;
+    color: #ebebeb;
 }
 
 .event-section .logistics .date {

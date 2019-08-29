@@ -8,17 +8,21 @@ main {
     flex: 1;
 }
 
-hr {
-    display: block;
-    height: 1px;
-    margin: 1em 0.6em;
-    padding: 0;
+.separator {
+    height: 20px;
+}
+
+.event-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    margin-bottom: -3px;
 }
 
 .menu {
     display: flex;
-    justify-content: flex-end;
-    margin-top: 20px;
+
 }
 .menu label, #hamburger {
     display: none;
@@ -26,7 +30,7 @@ hr {
 
 .menu ul {
     display: flex;
-    margin-right: 6%;
+    align-self: center;
 }
 
 .menu li {
@@ -38,43 +42,46 @@ hr {
     border-right: solid 2px;
 }
 
-.event-section {
+.event-section .information {
     display: flex;
-    justify-content: space-between;
+    width: 50%;
     flex-wrap: wrap;
-    flex-flow: row wrap;
-    margin: 55px 90px 25px 90px;
+    justify-content: center;
+    padding-bottom: 20px;
 }
 
-.event-section div {
-    width: 330px;
+.event-section .information img {
+    width: 72%;
+    margin-top: 30px;
 }
 
-.event-section .information .description {
-    margin-top: 25px;
-    margin-bottom: 50px;
-}
-
-.event-section .information .links .c4p {
-    padding: 7px 30px 7px 30px;
-    align-self: flex-start;
-}
-
-.event-section .information .links .tickets {
-    padding: 8px 40px 8px 40px;
+.event-section .information p {
 }
 
 .event-section .information .links {
     display: flex;
     justify-content: space-between;
+    align-self: flex-end;
 }
 
-.event-section .logistics .venue {
-    margin-top: 40px;
+.event-section .side-image {
+    width: 45%;
 }
 
-.event-section .logistics .date {
-    margin-bottom: 15px;
+.event-section .side-image img{
+    width: 100%;
+}
+
+.event-section .information .links {
+    width: 70%;
+}
+
+.event-section .information .links .c4p {
+    padding: 7px 30px 7px 30px;
+}
+
+.event-section .information .links .tickets {
+    padding: 8px 40px 8px 40px;
 }
 
 .sponsors-section {
