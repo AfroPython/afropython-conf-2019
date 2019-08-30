@@ -55,9 +55,6 @@ main {
     margin-top: 30px;
 }
 
-.event-section .information p {
-}
-
 .event-section .information .links {
     display: flex;
     justify-content: space-between;

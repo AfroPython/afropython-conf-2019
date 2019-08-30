@@ -52,21 +52,9 @@ body {
     color: #ebebeb;
 }
 
-.event-section .logistics .date {
-    font-size: 2em;
-    color: #606060;
-    font-weight: lighter;
-}
-
-.event-section .logistics .venue {
-    font-size: 0.9em;
-    color: #606060;
-    font-weight: lighter;
-}
-
 .sponsors-section h2 {
     font-size: 1.5em;
-    color: #606060;
+    color: #512c0b;
     font-weight: lighter;
 }
 
@@ -75,7 +63,7 @@ body {
     font-size: 0.8em;
     font-weight: lighter;
     border-radius: 2px;
-    background-color: #606060;
+    background-color: #3e5820;
     color: #ebebeb;
 }
 
@@ -85,26 +73,26 @@ body {
 
 .sponsors-section .placeholder p {
     font-size: 2em;
-    color: #606060;
+    color: #d45d0d;
     font-weight: lighter;
 }
 
 .sponsors-section .list .info p {
     font-size: 0.7em;
     font-weight: lighter;
-    color: #606060;
+    color: #512c0b;
     line-height: 1.1;
 }
 
 .schedule-section .placeholder p {
     font-size: 2em;
-    color: #606060;
+    color: #d45d0d;
     font-weight: lighter;
 }
 
 .schedule-section h2 {
     font-size: 1.5em;
-    color: #606060;
+    color: #512c0b;
     font-weight: lighter;
 }
 
@@ -115,35 +103,44 @@ body {
 
 .schedule-section .tables .day .info{
     font-size: 1.1em;
+    color:#512c0b;
 }
 
 .schedule-section .tables .attraction .time {
-    background-color: #606060;
     color: #ebebeb;
-    border-top: solid #606060 1px;
+}
+
+#talks {
+    background-color: #3e5820;
+    border-top: solid #3e5820 1px;
+}
+
+#workshops {
+    background-color: #d12809;
+    border-top: solid #d12809 1px;
 }
 
 .schedule-section .tables .attraction .description {
     line-height: 1.4;
-    background-color: #ebebeb;
-    color: #606060;
+    background-color: #fefaf2;
+    color: #512c0b;
 }
 
 .venue-section h2 {
     font-size: 1.5em;
-    color: #606060;
+    color: #512c0b;
     font-weight: lighter;
 }
 
 .venue-section .information .address {
     font-size: 1em;
     font-weight: lighter;
-    color: #606060;
-    line-height: 1.1;
+    color: #AA4D16;
+    line-height: 1.4;
 }
 
 footer {
-    background-color: #606060;
+    background-color: #3e5820;
     font-weight: lighter;
 }
 
@@ -176,19 +173,19 @@ footer .links .actions a:hover {
 }
 
 footer .links .actions .c4p {
-    background-color: #c0c0c0;
-    color: #606060;
+    background-color: #512c0b;
+    color: #ebebeb;
 }
 
 footer .links .actions .tickets {
-    background-color: #ebebeb;
-    color: #606060;
+    background-color: #d12809;
+    color: #ebebeb;
 }
 
 footer .links .social i {
     border-radius: 30px;
-    background-color: #ebebeb;
-    color: #606060;
+    background-color: #fefaf2;
+    color: #3e5820;
 }
 
 footer .links .social i:hover {
