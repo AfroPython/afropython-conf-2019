@@ -240,16 +240,12 @@ footer .links .social i {
         position: fixed;
         width: 100%;
         margin-top: 0;
-        background: #b1b1b1;
         height: 40px;
 
     }
 
     .menu label {
         display: inline-block;
-        color: #fff;
-        background: #b1b1b1;
-        font-size: 1.2em;
         padding: 10px;
       }
 
@@ -258,14 +254,10 @@ footer .links .social i {
         position: absolute;
         height: 100vh;
         overflow: visible;
-        margin-top: 40px;
-        background-color: #606060;
-        color: #ffffff;
-    }
-
-    .menu ul {
+        margin-top: 426px;
         width: 0;
         transition: width .3s ease-in-out;
+        display: none;
     }
 
     .menu ul li {
@@ -273,14 +265,34 @@ footer .links .social i {
     }
 
     .menu input:checked ~ ul {
+        display: block;
         overflow:hidden;
-        width: 80%;
+        width: 50%;
         transition: width .3s ease-in-out;
     }
 
     .menu .item-separation {
         border-right: 0;
     }
+
+    .event-section .information {
+        width: 100%;
+    }
+
+    .event-section .information img {
+        margin-top: 65px;
+    }
+
+    .event-section .information p {
+        margin-top: 5px;
+        margin-bottom: 50px;
+    }
+
+    .event-section .side-image {
+        display: none;
+    }
+
+
 
     .venue-section .information .map {
         margin: 0 auto;
@@ -309,10 +321,6 @@ footer .links .social i {
     .sponsors-section .placeholder {
         margin-top: 40px;
         margin-bottom: 40px;
-    }
-
-    .event-section {
-        margin: 55px 25px;
     }
 
     .sponsors-section {

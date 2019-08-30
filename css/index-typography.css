@@ -197,6 +197,21 @@ footer .links .social i:hover {
         font-size: calc(0.7em + 1vw)
     }
 
+    .menu {
+        background: #512c0b;
+    }
+
+    .menu label {
+        color: #fff;
+        background: #3e5820;
+        font-size: 1.2em;
+    }
+
+    .menu ul {
+        background-color: #3e5820;
+        color: #ffffff;
+    }
+
     .menu li a {
         line-height: 1.5;
         cursor: pointer;
