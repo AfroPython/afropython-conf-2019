@@ -48,8 +48,9 @@ body {
 }
 
 .event-section .information .links .tickets {
-    background-color: #3e5820;
-    color: #ebebeb;
+    background-color: #dddcdc;
+    color: #585858;
+    cursor: none;
 }
 
 .sponsors-section h2 {
@@ -178,8 +179,9 @@ footer .links .actions .c4p {
 }
 
 footer .links .actions .tickets {
-    background-color: #d12809;
-    color: #ebebeb;
+    background-color: #dddcdc;
+    color: #585858;
+    cursor: none;
 }
 
 footer .links .social i {
