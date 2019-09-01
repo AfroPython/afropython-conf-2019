@@ -45,13 +45,14 @@ main {
 .event-section .information {
     display: flex;
     width: 50%;
+    max-width: 973px;
     flex-wrap: wrap;
     justify-content: center;
     padding-bottom: 20px;
 }
 
 .event-section .information img {
-    width: 72%;
+    height: 150px;
     margin-top: 30px;
 }
 
@@ -280,6 +281,7 @@ footer .links .social i {
     }
 
     .event-section .information img {
+        height: 100px;
         margin-top: 65px;
     }
 
