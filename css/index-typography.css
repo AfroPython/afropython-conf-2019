@@ -50,7 +50,7 @@ body {
 .event-section .information .links .tickets {
     background-color: #dddcdc;
     color: #585858;
-    cursor: none;
+    cursor: not-allowed;
 }
 
 .sponsors-section h2 {
@@ -158,6 +158,11 @@ footer .information .description {
     font-size: 0.75em;
 }
 
+footer .information .description .conduct-code {
+    color: white;
+    font-weight: bold;
+}
+
 footer .information .copyright {
     font-size: 0.55em;
 }
@@ -181,7 +186,7 @@ footer .links .actions .c4p {
 footer .links .actions .tickets {
     background-color: #dddcdc;
     color: #585858;
-    cursor: none;
+    cursor: not-allowed;
 }
 
 footer .links .social i {
