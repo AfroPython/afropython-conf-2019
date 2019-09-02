@@ -15,9 +15,47 @@
   <meta charset="utf-8">
 
   <title>Afropython Conf 2019</title>
-  <meta name="description" content="Website for Afropython Conf 2019">
   <meta name="author" content="Afropython">
   <meta content="width=device-width, initial-scale=1" name="viewport" />
+
+  <meta
+      name="description"
+      content="A AfroPython Conf é uma conferência a nível Brasil que visa reunir os eventos de cada região para empoderar pessoas negras através da tecnologia."
+    />
+    <meta
+      property="og:description"
+      content="A AfroPython Conf é uma conferência a nível Brasil que visa reunir os eventos de cada região para empoderar pessoas negras através da tecnologia."
+    />
+
+    <meta property="og:title" content="AfroPython Conf" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://afropythonconf.org/" />
+
+    <meta
+      property="og:image"
+      content="http://afropython.org/images/afropython-image.png"
+    />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="http://afropythonconf.org/" />
+    <meta name="twitter:title" content="AfroPython Cpnf" />
+    <meta
+      name="twitter:description"
+      content="A AfroPython Conf é uma conferência a nível Brasil que visa reunir os eventos de cada região para empoderar pessoas negras através da tecnologia."
+    />
+
+    <meta
+      name="twitter:image"
+      content="http://afropython.org/images/afropython-image.png"
+    />
+
+    <meta
+      name="keywords"
+      content="afropython, python, desenvolvimento de software, inclusão, código, afropython.org, negritude, conferência, tecnologia, palestras, programação"
+    />
 
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/dc26bd2d61.js"></script>
@@ -26,139 +64,224 @@
   <link rel="stylesheet" href="css/index-structure.css">
   <link rel="stylesheet" href="css/index-typography.css">
 
+  <link rel="icon" href="img/favicon.ico" />
+
 </head>
 
 <body>
 
   <main>
-    <nav class="menu">
-        <label for="hamburger">&#9776;</label>
-        <input type="checkbox" id="hamburger"/>
-      <ul>
-        <li class="item-separation"><a href="#evento">Evento</a></li>
-        <li class="item-separation"><a href="#patrocinadores">Patrocinadores</a></li>
-        <li class="item-separation"><a href="#programacao">Programação</a></li>
-        <li><a href="#local">Local</a></li>
-      </ul>
-    </nav>
-
     <section id="evento" class="event-section">
       <div class="information">
-        <h1>AFROPYTHON CONF</h1>
-        <p class="description">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Suspendisse iaculis justo in mauris hendrerit varius id sed libero.
-          In luctus urna quis elit scelerisque, cursus mattis odio fringilla.
-        </p>
-        <div class="links">
-          <a class="c4p" href="#link-formulario-c4p">Call 4 Papers</a>
-          <a class="tickets" href="#link-formulario-ingressos">Ingressos</a>
-        </div>
+        <nav class="menu">
+            <label for="hamburger">&#9776;</label>
+            <input type="checkbox" id="hamburger"/>
+            <ul>
+              <li class="item-separation"><a href="#evento">Evento</a></li>
+              <li class="item-separation"><a href="#patrocinadores">Patrocinadores</a></li>
+              <li class="item-separation"><a href="#programacao">Programação</a></li>
+              <li><a href="#local">Local</a></li>
+            </ul>
+          </nav>
+
+          <img src="img/afropythonconf_logo.png" alt="Afropython Conf escrito como estilo do logo do Afropython">
+
+          <p class="description">
+           23 E 24 DE NOVEMBRO | UNIRITTER IGUATEMI, PORTO ALEGRE
+          </p>
+          <div class="links">
+            <a class="c4p" href="https://forms.gle/Ew1T24SEMQcXivfb7" target="_blank" title="Call 4 Papers">Call 4 Papers</a>
+            <a class="tickets" href="#link-formulario-ingressos" title="Adquira seu ingresso">Ingressos</a>
+          </div>
+
       </div>
 
-      <div class="logistics">
-        <p class="date">23 e 24</p>
-        <p class="date">DE NOVEMBRO</p>
-        <p class="venue">Local do Evento, Porto Alegre</p>
+      <div id="side-image" class="side-image">
+        <img src="img/side-image2.jpg" alt="Foto de mulher negra utilizando um notebook e um homem negro ajudando">
       </div>
     </section>
 
-    <hr/>
+    <div class="separator"></div>
 
     <section id="patrocinadores" class="sponsors-section">
       <div class="header">
         <h2>PATROCINADORES</h2>
-        <a href="#form-patrocinadores">Seja um Patrocinador</a>
+        <a href="https://forms.gle/brvuZ5KdN5H3db3M7" target="_blank" title="Seja um patrocinador">Seja um Patrocinador</a>
       </div>
 
       <div class="placeholder">
-        <p>Ainda Estamos a procura, Venha nos apoiar!</p>
+        <p>Para esse evento acontecer, precisamos da sua ajuda! Venha nos apoiar!</p>
       </div>
 
       <div class="list">
 
         <div class="info">
+          <img src="img/patrocinador_uniRitter.jpg">
+          <p>
+            <strong>A UniRitter </strong> - Integrante da rede global líder em ensino superior Laureate International Universities - é uma das mais conceituadas e inovadoras instituições de ensino superior de Porto Alegre e Região Metropolitana da Capital.
+          </p>
+        </div>
+
+        <div class="info">
           <img src="img/default.png">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras semper diam vel pulvinar ultrices.
+            Descrição e imagem da sua empresa aqui!
+          </p>
+        </div>
+
+        <div class="info">
+          <img src="img/default.png">
+          <p>
+            Descrição e imagem da sua empresa aqui!
           </p>
         </div>
 
       </div>
     </section>
 
-    <hr/>
+    <div class="separator"></div>
 
     <section id="programacao" class="schedule-section">
       <h2>PROGRAMAÇÃO</h2>
 
       <div class="placeholder">
-          <p>EM BREVE!</p>
+        <p> As submissões para palestras e workshops estão abertas! </p>
       </div>
 
+      <h3>SÁBADO</h3>
       <div class="tables">
         <div class="day">
-          <p class="info">Sábado - Palestras - Sala Whatever</p>
+          <p class="info">Palestras - Auditório Principal</p>
+
           <div class="attraction" >
-
-            <p class="time">Horário 1</p>
-
+            <p id="talks" class="time">Horário 1</p>
             <div class="description">
-              <p>Palestra Super Legal</p>
-              <p>Autora muito massa</p>
+              <p>Em Breve!</p>
             </div>
           </div>
 
           <div class="attraction" >
-
-            <p class="time">Horário 2</p>
-
+            <p id="talks" class="time">Horário 2</p>
             <div class="description">
-              <p>Palestra Super Legal</p>
-              <p>Autora muito massa</p>
+              <p>Em Breve!</p>
+            </div>
+          </div>
+
+          <div class="attraction" >
+            <p id="talks" class="time">Horário 3</p>
+            <div class="description">
+              <p>Em Breve!</p>
+            </div>
+          </div>
+
+          <div class="attraction" >
+            <p id="talks" class="time">Horário 4</p>
+            <div class="description">
+              <p>Em Breve!</p>
             </div>
           </div>
 
         </div>
 
         <div class="day">
+          <p class="info">Workshops - <i>A definir</i></p>
 
-          <p class="info">Domingo - Workshops - Sala Whatever</p>
           <div class="attraction" >
 
-            <p class="time">Horário 1</p>
+            <p id="workshops" class="time">Horário 1</p>
 
             <div class="description">
-              <p>Workshop Super Legal</p>
-              <p>Autora muito massa</p>
+              <p>Em Breve!</p>
             </div>
           </div>
 
           <div class="attraction" >
 
-            <p class="time">Horário 1</p>
+            <p id="workshops" class="time">Horário 1</p>
 
             <div class="description">
-              <p>Workshop Super Legal</p>
-              <p>Autora muito massa</p>
+              <p>Em Breve!</p>
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+
+      <h3>DOMINGO</h3>
+     <div class="tables">
+       <div class="day">
+          <p class="info">Palestras - Auditório Principal</p>
+
+          <div class="attraction" >
+            <p id="talks" class="time">Horário 1</p>
+            <div class="description">
+              <p>Em Breve!</p>
+            </div>
+          </div>
+
+          <div class="attraction" >
+            <p id="talks" class="time">Horário 2</p>
+            <div class="description">
+              <p>Em Breve!</p>
+            </div>
+          </div>
+
+          <div class="attraction" >
+            <p id="talks" class="time">Horário 3</p>
+            <div class="description">
+              <p>Em Breve!</p>
+            </div>
+          </div>
+
+          <div class="attraction" >
+            <p id="talks" class="time">Horário 4</p>
+            <div class="description">
+              <p>Em Breve!</p>
             </div>
           </div>
 
         </div>
+
+        <div class="day">
+          <p class="info">Workshops - <i>A definir</i></p>
+
+          <div class="attraction" >
+
+            <p id="workshops" class="time">Horário 1</p>
+
+            <div class="description">
+              <p>Em Breve!</p>
+            </div>
+          </div>
+
+          <div class="attraction" >
+
+            <p id="workshops" class="time">Horário 1</p>
+
+            <div class="description">
+              <p>Em Breve!</p>
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
       </div>
 
     </section>
 
-    <hr/>
+    <div class="separator"></div>
 
     <section id="local" class="venue-section">
       <h2>LOCAL</h2>
 
       <div class="information">
         <p class="address">
-            A Afropython Conf será realizada no espaço
-            Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
+            A Afropython Conf será realizada na Uniritter Campus Iguatemi 
+            localizado na Av.João Wallig, 1800 Porto Alegre/RS
         </p>
 
         <div class="map">
@@ -170,26 +293,39 @@
     <footer>
       <div class="information">
         <h2>AFROPYTHON CONF 2019</h2>
-        <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras semper diam vel pulvinar ultrices.</p>
-        <p class="copyright">&copy;Afropython 2019</p>
+        <p class="description">
+          A AfroPython Conf é uma conferência a nível Brasil que visa
+          reunir os eventos de cada região para empoderar pessoas
+          negras através da tecnologia.
+        </p>
+        <p class="copyright">&copy;AfroPython 2019</p>
+      </div>
+
+      <div class="information">
+        <h2>Código de conduta</h2>
+        <p class="description">
+          Este evento tem a intenção de ser acolhedor onde as pessoas se sintam confortáveis no ambiente. Por isso participantes, palestrantes, representantes de empresas e pessoas voluntárias do evento precisam concordar com este código de conduta.
+          <br>
+          <a href="https://github.com/AfroPython/afropython-site/wiki/C%C3%B3digo-de-Conduta" target="_blank" class="conduct-code" title="Código de conduta AfroPython"> Leia nosso código aqui </a>
+        </p>
       </div>
 
       <div class="links">
         <div class="actions">
-          <a class="c4p" href="#link-formulario-c4p">Call 4 Papers</a>
+          <a class="c4p" href="https://forms.gle/Ew1T24SEMQcXivfb7" target="_blank">Call 4 Papers</a>
           <a class="tickets" href="#link-formulario-ingressos">Ingressos</a>
         </div>
         <div class="social">
-          <a href="https://www.facebook.com/AfroPython/">
+          <a href="https://www.facebook.com/AfroPython/" target="_blank" title="Facebook AfroPython">
               <i class="fab fa-facebook-f"></i>
           </a>
-          <a href="https://www.instagram.com/afropython/">
+          <a href="https://www.instagram.com/afropython/" target="_blank" title="Instagram AfroPython">
             <i class="fab fa-instagram"></i>
           </a>
-          <a href="https://twitter.com/afropython/">
+          <a href="https://twitter.com/afropython/" target="_blank" title="Twitter AfroPython">
             <i class="fab fa-twitter"></i>
           </a>
-          <a href="mailto:afropython@gmail.com">
+          <a href="mailto:afropython@gmail.com" target="_blank" title="E-mail AfroPython">
             <i class="far fa-envelope"></i>
           </a>
         </div>

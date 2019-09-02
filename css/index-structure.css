@@ -8,17 +8,21 @@ main {
     flex: 1;
 }
 
-hr {
-    display: block;
-    height: 1px;
-    margin: 1em 0.6em;
-    padding: 0;
+.separator {
+    height: 20px;
+}
+
+.event-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    margin-bottom: -3px;
 }
 
 .menu {
     display: flex;
-    justify-content: flex-end;
-    margin-top: 20px;
+
 }
 .menu label, #hamburger {
     display: none;
@@ -26,7 +30,7 @@ hr {
 
 .menu ul {
     display: flex;
-    margin-right: 6%;
+    align-self: center;
 }
 
 .menu li {
@@ -38,47 +42,48 @@ hr {
     border-right: solid 2px;
 }
 
-.event-section {
+.event-section .information {
+    display: flex;
+    width: 50%;
+    max-width: 973px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.event-section .information img {
+    height: 150px;
+    margin-top: 30px;
+}
+
+.event-section .information .links {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-    flex-flow: row wrap;
-    margin: 55px 90px 25px 90px;
+    align-self: flex-end;
 }
 
-.event-section div {
-    width: 330px;
+.event-section .side-image {
+    width: 45%;
 }
 
-.event-section .information .description {
-    margin-top: 25px;
-    margin-bottom: 50px;
+.event-section .side-image img{
+    width: 100%;
+}
+
+.event-section .information .links {
+    width: 70%;
 }
 
 .event-section .information .links .c4p {
     padding: 7px 30px 7px 30px;
-    align-self: flex-start;
 }
 
 .event-section .information .links .tickets {
     padding: 8px 40px 8px 40px;
 }
 
-.event-section .information .links {
-    display: flex;
-    justify-content: space-between;
-}
-
-.event-section .logistics .venue {
-    margin-top: 40px;
-}
-
-.event-section .logistics .date {
-    margin-bottom: 15px;
-}
-
 .sponsors-section {
-    margin: 20px 90px 20px 90px;
+    margin: 40px 90px;
 }
 
 .sponsors-section .header {
@@ -91,9 +96,8 @@ hr {
 }
 
 .sponsors-section .placeholder {
-    text-align: center;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .sponsors-section .list {
@@ -101,37 +105,38 @@ hr {
     justify-content: space-between;
     flex-wrap: wrap;
     flex-flow: row wrap;
+    margin-top: 40px;
 
 }
 
 .sponsors-section .list .info {
-    /* display: flex; */
-    display: none;
+    display: flex;
     flex-direction: column;
-    width: 33%;
+    width: 30%;
     text-align: center;
+    border: 1px solid #c9c9c9;
+    padding: 15px;
 }
 
 .sponsors-section img {
-    width: 200px;
+    max-height: 70px;
+    max-width: 200px;
     align-self: center;
-    margin: 45px 0 15px 0;
+    margin-bottom: 15px;
 }
 
 .schedule-section {
-    margin: 20px 90px 20px 90px;
+    margin: 40px 90px;
 }
 
 .schedule-section .placeholder {
-    text-align: center;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .schedule-section .tables {
-    /* display: flex; */
-    display: none;
-    margin-top: 40px;
+    display: flex;
+    margin-bottom: 40px;
     justify-content: space-between;
     flex-wrap: wrap;
     flex-flow: row wrap;
@@ -140,10 +145,11 @@ hr {
 .schedule-section .tables .day {
     display: flex;
     flex-direction: column;
+    width: 49%;
+    margin: 10px 0;
 }
 
 .schedule-section .tables .day .info{
-    align-self: center;
     margin-bottom: 20px;
 }
 
@@ -159,11 +165,11 @@ hr {
 }
 
 .schedule-section .tables .attraction .description {
-    padding: 15px 100px;
+    padding: 15px 50px;
 }
 
 .venue-section {
-    margin: 20px 90px 20px 90px;
+    margin: 40px 90px;
 }
 
 .venue-section .information {
@@ -236,16 +242,12 @@ footer .links .social i {
         position: fixed;
         width: 100%;
         margin-top: 0;
-        background: #b1b1b1;
         height: 40px;
 
     }
 
     .menu label {
         display: inline-block;
-        color: #fff;
-        background: #b1b1b1;
-        font-size: 1.2em;
         padding: 10px;
       }
 
@@ -254,14 +256,10 @@ footer .links .social i {
         position: absolute;
         height: 100vh;
         overflow: visible;
-        margin-top: 40px;
-        background-color: #606060;
-        color: #ffffff;
-    }
-
-    .menu ul {
+        top: 40px;
         width: 0;
         transition: width .3s ease-in-out;
+        display: none;
     }
 
     .menu ul li {
@@ -269,13 +267,32 @@ footer .links .social i {
     }
 
     .menu input:checked ~ ul {
+        display: block;
         overflow:hidden;
-        width: 80%;
+        width: 50%;
         transition: width .3s ease-in-out;
     }
 
     .menu .item-separation {
         border-right: 0;
+    }
+
+    .event-section .information {
+        width: 100%;
+    }
+
+    .event-section .information img {
+        height: 100px;
+        margin-top: 65px;
+    }
+
+    .event-section .information p {
+        margin-top: 5px;
+        margin-bottom: 50px;
+    }
+
+    .event-section .side-image {
+        display: none;
     }
 
     .venue-section .information .map {
@@ -294,12 +311,17 @@ footer .links .social i {
 
     .sponsors-section .header {
         align-items: center;
+        display: block;
     }
 
     .sponsors-section .header a {
         padding: 8px 20px 8px 20px;
-        margin-left: 20px;
+        margin-left: 0;
         text-align: center;
+    }
+
+    .sponsors-section h2 {
+        margin-bottom: 20px;
     }
 
     .sponsors-section .placeholder {
@@ -307,12 +329,21 @@ footer .links .social i {
         margin-bottom: 40px;
     }
 
-    .event-section {
-        margin: 55px 25px;
-    }
-
     .sponsors-section {
         margin: 20px 20px;
+    }
+
+    .sponsors-section .list .info {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .schedule-section .tables .day {
+        width: 100%;
+    }
+
+    .schedule-section .tables .attraction .description {
+        padding: 15px 20px;
     }
 
     .schedule-section {
@@ -325,5 +356,9 @@ footer .links .social i {
 
     .logistics {
         padding-top: 40px;
+    }
+
+    .event-section .information .links {
+        width: 90%;
     }
 }
