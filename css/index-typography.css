@@ -73,9 +73,8 @@ body {
 }
 
 .sponsors-section .placeholder p {
-    font-size: 2em;
+    font-size: 1em;
     color: #d45d0d;
-    font-weight: lighter;
 }
 
 .sponsors-section .list .info p {
@@ -86,9 +85,8 @@ body {
 }
 
 .schedule-section .placeholder p {
-    font-size: 2em;
+    font-size: 1em;
     color: #d45d0d;
-    font-weight: lighter;
 }
 
 .schedule-section h2 {
@@ -100,6 +98,13 @@ body {
 .schedule-section .tables {
     font-size: 0.8em;
     font-weight: lighter;
+}
+
+.schedule-section h3 {
+    font-size: 1em;
+    color: #d45d0d;
+    font-weight: bold;
+    margin-bottom: 15px;
 }
 
 .schedule-section .tables .day .info{
