@@ -1,380 +1,383 @@
 body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 main {
-    flex: 1;
+  flex: 1;
 }
 
 .separator {
-    height: 20px;
+  height: 20px;
 }
 
 .event-section {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    flex-flow: row wrap;
-    margin-bottom: -3px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  margin-bottom: -3px;
 }
 
 .menu {
-    display: flex;
-
+  display: flex;
 }
-.menu label, #hamburger {
-    display: none;
+.menu label,
+#hamburger {
+  display: none;
 }
 
 .menu ul {
-    display: flex;
-    align-self: center;
+  display: flex;
+  align-self: center;
 }
 
 .menu li {
-    padding-left: 11px;
-    padding-right: 11px;
+  padding-left: 11px;
+  padding-right: 11px;
 }
 
 .menu .item-separation {
-    border-right: solid 2px;
+  border-right: solid 2px;
 }
 
 .event-section .information {
-    display: flex;
-    width: 50%;
-    max-width: 973px;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-bottom: 20px;
+  display: flex;
+  width: 50%;
+  max-width: 973px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 20px;
 }
 
 .event-section .information img {
-    height: 150px;
-    margin-top: 30px;
+  height: 150px;
+  margin-top: 30px;
 }
 
 .event-section .information .links {
-    display: flex;
-    justify-content: space-between;
-    align-self: flex-end;
+  display: flex;
+  justify-content: space-between;
+  align-self: flex-end;
 }
 
 .event-section .side-image {
-    width: 45%;
+  width: 45%;
 }
 
-.event-section .side-image img{
-    width: 100%;
+.event-section .side-image img {
+  width: 100%;
 }
 
 .event-section .information .links {
-    width: 70%;
+  width: 70%;
 }
 
 .event-section .information .links .c4p {
-    padding: 7px 30px 7px 30px;
+  padding: 7px 30px 7px 30px;
 }
 
 .event-section .information .links .tickets {
-    padding: 8px 40px 8px 40px;
+  padding: 8px 40px 8px 40px;
 }
 
 .sponsors-section {
-    margin: 40px 90px;
+  margin: 40px 90px;
 }
 
 .sponsors-section .header {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .sponsors-section .header a {
-    padding: 8px 40px 8px 40px;
+  padding: 8px 40px 8px 40px;
 }
 
 .sponsors-section .placeholder {
-    margin-top: 40px;
-    margin-bottom: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .sponsors-section .list {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    flex-flow: row wrap;
-    margin-top: 40px;
-
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  margin-top: 40px;
 }
 
 .sponsors-section .list .info {
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-    text-align: center;
-    border: 1px solid #c9c9c9;
-    padding: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  text-align: center;
+  border: 1px solid #c9c9c9;
+  padding: 15px;
 }
 
 .sponsors-section img {
-    max-height: 70px;
-    max-width: 200px;
-    align-self: center;
-    margin-bottom: 15px;
+  max-height: 70px;
+  max-width: 200px;
+  align-self: center;
+  margin-bottom: 15px;
 }
 
 .schedule-section {
-    margin: 40px 90px;
+  margin: 40px 90px;
 }
 
 .schedule-section .placeholder {
-    margin-top: 40px;
-    margin-bottom: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .schedule-section .tables {
-    display: flex;
-    margin-bottom: 40px;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    flex-flow: row wrap;
+  display: flex;
+  margin-bottom: 40px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
 }
 
 .schedule-section .tables .day {
-    display: flex;
-    flex-direction: column;
-    width: 49%;
-    margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  width: 49%;
+  margin: 10px 0;
 }
 
-.schedule-section .tables .day .info{
-    margin-bottom: 20px;
+.schedule-section .tables .day .info {
+  margin-bottom: 20px;
 }
 
 .schedule-section .tables .attraction {
-    display: flex;
-    flex-flow: row wrap;
-    align-items: stretch;
-    margin-bottom: 2px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: stretch;
+  margin-bottom: 2px;
 }
 
 .schedule-section .tables .attraction .time-container {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .schedule-section .tables .attraction .time {
-    padding: 6px 31px;
-    display: flex;
-    text-align: center;
+  padding: 6px 31px;
+  display: flex;
+  text-align: center;
 }
 
 .schedule-section .tables .attraction .description {
-    padding: 6px 31px;
-    width: 300px;
-    display: flex;
-    text-align: center;
-    align-items: stretch;
+  padding: 6px 31px;
+  width: 300px;
+  display: flex;
+  text-align: center;
+  align-items: stretch;
 }
 
 .schedule-section .tables .attraction .description p {
-    width: 300px;
-    overflow-wrap: break-word;
+  width: 300px;
+  overflow-wrap: break-word;
 }
 
 .venue-section {
-    margin: 40px 90px;
+  margin: 40px 90px;
 }
 
 .venue-section .information {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    flex-flow: row wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
 }
 
 .venue-section .information .address {
-    padding-top:60px;
-    width:500px;
+  padding-top: 60px;
+  width: 500px;
 }
 
 .venue-section .information .map iframe {
-    width: 450px;
-    height: 250px;
+  width: 450px;
+  height: 250px;
 }
 
 footer {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    flex-flow: row wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
 }
 
 footer .information {
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    padding: 40px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 40px;
 }
 
 footer .information .description {
-    margin: 20px 0;
+  margin: 20px 0;
 }
 
 footer .links {
-    display: flex;
-    flex-direction: column;
-    width: 380px;
-    padding: 40px;
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  padding: 40px;
 }
 
 footer .links .actions {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    flex-flow: row wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
 }
 
 footer .links .actions a {
-    padding: 8px 30px;
+  padding: 8px 30px;
 }
 
 footer .links .social {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    flex-flow: row wrap;
-    margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  margin-top: 60px;
 }
 
 footer .links .social i {
-    padding: 20px;
+  padding: 20px;
 }
 
 @media only screen and (max-width: 600px) {
-    .menu {
-        position: fixed;
-        width: 100%;
-        margin-top: 0;
-        height: 40px;
+  .menu {
+    position: fixed;
+    width: 100%;
+    margin-top: 0;
+    height: 40px;
+  }
 
-    }
+  .menu label {
+    display: inline-block;
+    padding: 10px;
+  }
 
-    .menu label {
-        display: inline-block;
-        padding: 10px;
-      }
+  .menu ul {
+    flex-direction: column;
+    position: absolute;
+    height: 100vh;
+    overflow: visible;
+    top: 40px;
+    width: 0;
+    transition: width 0.3s ease-in-out;
+    display: none;
+  }
 
-    .menu ul {
-        flex-direction: column;
-        position: absolute;
-        height: 100vh;
-        overflow: visible;
-        top: 40px;
-        width: 0;
-        transition: width .3s ease-in-out;
-        display: none;
-    }
+  .menu ul li {
+    padding: 20px 20px;
+  }
 
-    .menu ul li {
-        padding: 20px 20px;
-    }
+  .menu input:checked ~ ul {
+    display: block;
+    overflow: hidden;
+    width: 50%;
+    transition: width 0.3s ease-in-out;
+  }
 
-    .menu input:checked ~ ul {
-        display: block;
-        overflow:hidden;
-        width: 50%;
-        transition: width .3s ease-in-out;
-    }
+  .menu .item-separation {
+    border-right: 0;
+  }
 
-    .menu .item-separation {
-        border-right: 0;
-    }
+  .event-section .information {
+    width: 100%;
+  }
 
-    .event-section .information {
-        width: 100%;
-    }
+  .event-section .information img {
+    height: 100px;
+    margin-top: 65px;
+  }
 
-    .event-section .information img {
-        height: 100px;
-        margin-top: 65px;
-    }
+  .event-section .information p {
+    margin-top: 5px;
+    margin-bottom: 50px;
+  }
 
-    .event-section .information p {
-        margin-top: 5px;
-        margin-bottom: 50px;
-    }
+  .event-section .side-image {
+    display: none;
+  }
 
-    .event-section .side-image {
-        display: none;
-    }
+  .venue-section .information .map {
+    margin: 0 auto;
+  }
 
-    .venue-section .information .map {
-        margin: 0 auto;
-    }
+  .venue-section .information .map iframe {
+    width: 250px;
+    height: 200px;
+  }
 
-    .venue-section .information .map iframe {
-        width: 250px;
-        height: 200px;
-    }
+  .venue-section .information .address {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 
-    .venue-section .information .address {
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
+  .sponsors-section .header {
+    align-items: center;
+    display: block;
+  }
 
-    .sponsors-section .header {
-        align-items: center;
-        display: block;
-    }
+  .sponsors-section .header a {
+    padding: 8px 20px 8px 20px;
+    margin-left: 0;
+    text-align: center;
+  }
 
-    .sponsors-section .header a {
-        padding: 8px 20px 8px 20px;
-        margin-left: 0;
-        text-align: center;
-    }
+  .sponsors-section h2 {
+    margin-bottom: 20px;
+  }
 
-    .sponsors-section h2 {
-        margin-bottom: 20px;
-    }
+  .sponsors-section .placeholder {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
 
-    .sponsors-section .placeholder {
-        margin-top: 40px;
-        margin-bottom: 40px;
-    }
+  .sponsors-section {
+    margin: 20px 20px;
+  }
 
-    .sponsors-section {
-        margin: 20px 20px;
-    }
+  .sponsors-section .list .info {
+    width: 100%;
+    margin-bottom: 15px;
+  }
 
-    .sponsors-section .list .info {
-        width: 100%;
-        margin-bottom: 15px;
-    }
+  .schedule-section .tables .day {
+    width: 100%;
+  }
 
-    .schedule-section .tables .day {
-        width: 100%;
-    }
+  .schedule-section .tables .attraction .description {
+    padding: 15px 20px;
+  }
 
-    .schedule-section .tables .attraction .description {
-        padding: 15px 20px;
-    }
+  .schedule-section {
+    margin: 20px 20px;
+  }
 
-    .schedule-section {
-        margin: 20px 20px;
-    }
+  .venue-section {
+    margin: 20px 20px;
+  }
 
-    .venue-section {
-        margin: 20px 20px;
-    }
+  .logistics {
+    padding-top: 40px;
+  }
 
-    .logistics {
-        padding-top: 40px;
-    }
+  .event-section .information .links {
+    width: 90%;
+  }
 
-    .event-section .information .links {
-        width: 90%;
-    }
+  .schedule-section .tables .attraction .time {
+    padding: 6px 20px;
+    width: 300px;
+  }
 }
