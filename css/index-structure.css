@@ -156,16 +156,32 @@ main {
 .schedule-section .tables .attraction {
     display: flex;
     flex-flow: row wrap;
-    align-items: center;
+    align-items: stretch;
     margin-bottom: 2px;
 }
 
+.schedule-section .tables .attraction .time-container {
+    display: flex;
+    align-items: center;
+}
+
 .schedule-section .tables .attraction .time {
-    padding: 31px;
+    padding: 6px 31px;
+    display: flex;
+    text-align: center;
 }
 
 .schedule-section .tables .attraction .description {
-    padding: 15px 50px;
+    padding: 6px 31px;
+    width: 300px;
+    display: flex;
+    text-align: center;
+    align-items: stretch;
+}
+
+.schedule-section .tables .attraction .description p {
+    width: 300px;
+    overflow-wrap: break-word;
 }
 
 .venue-section {

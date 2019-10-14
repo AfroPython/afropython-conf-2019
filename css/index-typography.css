@@ -125,6 +125,21 @@ body {
     border-top: solid #d12809 1px;
 }
 
+#workshops-time-off {
+    background-color: #d12809;
+    border-top: solid #d12809 1px;
+    color: #d12809;
+}
+
+#workshops-description-off{
+    color: #fefaf2;
+}
+
+#important {
+    font-weight: bold;
+    background-color: antiquewhite;
+}
+
 .schedule-section .tables .attraction .description {
     line-height: 1.4;
     background-color: #fefaf2;
