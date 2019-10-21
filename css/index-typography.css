@@ -152,6 +152,11 @@ body {
   color: #512c0b;
 }
 
+.schedule-section .tables .attraction .description .speaker {
+  font-weight: bold;
+  margin-bottom: 7px;
+}
+
 .venue-section h2 {
   font-size: 1.5em;
   color: #512c0b;

@@ -175,7 +175,8 @@ main {
   width: 300px;
   display: flex;
   text-align: center;
-  align-items: stretch;
+  align-items: center;
+  flex-direction: column;
 }
 
 .schedule-section .tables .attraction .description p {
