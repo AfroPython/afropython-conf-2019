@@ -80,6 +80,7 @@ main {
 
 .event-section .information .links .tickets {
   padding: 8px 40px 8px 40px;
+  margin: 4px;
 }
 
 .sponsors-section {
