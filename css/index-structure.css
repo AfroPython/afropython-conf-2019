@@ -58,7 +58,7 @@ main {
 
 .event-section .information .links {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-self: flex-end;
 }
 
@@ -233,7 +233,7 @@ footer .links {
 
 footer .links .actions {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-wrap: wrap;
   flex-flow: row wrap;
 }
