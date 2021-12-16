@@ -38,6 +38,7 @@ body {
   font-size: 0.8em;
   font-weight: lighter;
   border-radius: 2px;
+  text-align: center;
 }
 
 .event-section .information .links a:hover {

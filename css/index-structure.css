@@ -58,7 +58,7 @@ main {
 
 .event-section .information .links {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-self: flex-end;
 }
 
@@ -80,6 +80,7 @@ main {
 
 .event-section .information .links .tickets {
   padding: 8px 40px 8px 40px;
+  margin: 4px;
 }
 
 .sponsors-section {
@@ -233,7 +234,7 @@ footer .links {
 
 footer .links .actions {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-wrap: wrap;
   flex-flow: row wrap;
 }
