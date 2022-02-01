@@ -54,6 +54,7 @@ main {
 .event-section .information img {
   height: 150px;
   margin-top: 30px;
+  margin-inline: 60px;
 }
 
 .event-section .information .links {
