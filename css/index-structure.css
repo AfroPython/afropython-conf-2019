@@ -55,11 +55,12 @@ main {
   height: 150px;
   margin-top: 30px;
   margin-inline: 60px;
+  margin-bottom: 10px;
 }
 
 .event-section .information .links {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-self: flex-end;
 }
 
@@ -306,7 +307,7 @@ footer .links .social i {
 
   .event-section .information p {
     margin-top: 5px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
 
   .event-section .side-image {
