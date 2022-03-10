@@ -60,7 +60,7 @@ main {
 
 .event-section .information .links {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-self: flex-end;
 }
 
