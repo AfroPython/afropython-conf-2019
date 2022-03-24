@@ -51,11 +51,17 @@ main {
   padding-bottom: 20px;
 }
 
+.event-section .information .information-logo {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
 .event-section .information img {
-  height: 150px;
+  height: 250px;
   margin-top: 30px;
   margin-inline: 60px;
-  margin-bottom: 10px;
 }
 
 .event-section .information .links {
@@ -116,16 +122,13 @@ main {
   flex-direction: column;
   width: 30%;
   text-align: center;
-  border: 1px solid #c9c9c9;
-  padding: 15px;
   margin-bottom: 7px;
 }
 
 .sponsors-section img {
-  max-height: 70px;
-  max-width: 200px;
+  max-height: 200px;
+  max-width: 300px;
   align-self: center;
-  margin-bottom: 15px;
 }
 
 .schedule-section {
