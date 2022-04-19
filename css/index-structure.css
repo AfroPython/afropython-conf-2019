@@ -126,7 +126,7 @@ main {
 }
 
 .sponsors-section img {
-  max-height: 200px;
+  max-height: 160px;
   max-width: 300px;
   align-self: center;
 }
@@ -163,7 +163,7 @@ main {
   display: flex;
   flex-flow: row wrap;
   align-items: stretch;
-  margin-bottom: 2px;
+  margin-bottom: 4px;
 }
 
 .schedule-section .tables .attraction .time-container {
