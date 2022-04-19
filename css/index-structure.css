@@ -111,7 +111,7 @@ main {
 
 .sponsors-section .list {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   flex-flow: row wrap;
   margin-top: 40px;
