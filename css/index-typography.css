@@ -79,6 +79,13 @@ body {
   color: #d45d0d;
 }
 
+.sponsors-section .placeholder.texto-menor p {
+  font-weight: lighter;
+  color: #512c0b;
+  line-height: 1.1;
+  margin-bottom: 15px;
+}
+
 .sponsors-section .list .info p {
   font-size: 0.7em;
   font-weight: lighter;
