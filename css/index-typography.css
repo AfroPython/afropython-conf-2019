@@ -14,7 +14,7 @@ body {
 .menu li a {
   text-decoration: none;
   font-size: 0.95em;
-  color: #512c0b;
+  color: #fff;
   font-weight: lighter;
 }
 
@@ -57,8 +57,15 @@ body {
 
 .sponsors-section h2 {
   font-size: 1.5em;
-  color: #512c0b;
+  color: #fff;
   font-weight: lighter;
+}
+
+.sponsors-section h3 {
+  font-size: 1em;
+  color: #fff;
+  font-weight: bolder;
+  margin: 50px 0;
 }
 
 .sponsors-section .header a {
@@ -66,8 +73,9 @@ body {
   font-size: 0.8em;
   font-weight: lighter;
   border-radius: 2px;
-  background-color: #3e5820;
-  color: #ebebeb;
+  background-color: #d59006;
+  color: #fff;
+  border-radius: 5px;
 }
 
 .sponsors-section .header a:hover {
@@ -75,13 +83,13 @@ body {
 }
 
 .sponsors-section .placeholder p {
-  font-size: 1em;
+  font-size: 0.9em;
   color: #d45d0d;
 }
 
 .sponsors-section .placeholder.texto-menor p {
   font-weight: lighter;
-  color: #512c0b;
+  color: #fff;
   line-height: 1.1;
   margin-bottom: 15px;
 }
@@ -92,6 +100,18 @@ body {
   color: #512c0b;
   line-height: 1.1;
 }
+
+.sponsors-benefits .header span {
+  font-weight: bold;
+  font-size: 0.9em;
+  color: #0139A8;
+}
+
+.sponsors-benefits .footer p {
+  font-size: 0.7em;
+  margin-top: auto; 
+}
+
 
 .schedule-section .placeholder p {
   font-size: 1em;

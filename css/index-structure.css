@@ -17,7 +17,7 @@ main {
   justify-content: space-between;
   flex-wrap: wrap;
   flex-flow: row wrap;
-  margin-bottom: -3px;
+  background-color: #341211;
 }
 
 .menu {
@@ -49,6 +49,7 @@ main {
   flex-wrap: wrap;
   justify-content: center;
   padding-bottom: 20px;
+  min-height: 50vh;
 }
 
 .event-section .information .information-logo {
@@ -79,6 +80,7 @@ main {
 
 .event-section .side-image {
   width: 45%;
+  background: #f24f14;
 }
 
 .event-section .side-image img {
@@ -99,7 +101,8 @@ main {
 }
 
 .sponsors-section {
-  margin: 40px 90px;
+  background: #0139a8;
+  padding: 40px 90px;
 }
 
 .sponsors-section .header {
@@ -118,7 +121,7 @@ main {
 
 .sponsors-section .list {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   flex-wrap: wrap;
   flex-flow: row wrap;
   margin-top: 40px;
@@ -137,6 +140,45 @@ main {
   max-width: 300px;
   align-self: center;
 }
+
+.sponsors-benefits ul{
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 0;
+  list-style: none;
+  flex-wrap: wrap; 
+}
+
+.sponsors-benefits li {
+  background-color: #341211; 
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); 
+  flex: 1;
+  min-width: 250px;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  height: 250px;
+
+}
+
+.sponsors-benefits li div {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1; 
+  padding: 5px;
+}
+
+.sponsors-benefits .header span {
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+
+
 
 .schedule-section {
   margin: 40px 90px;
