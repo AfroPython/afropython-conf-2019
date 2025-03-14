@@ -75,7 +75,8 @@ body {
   border-radius: 2px;
   background-color: #d59006;
   color: #fff;
-  border-radius: 5px;
+  border-radius: 50px;
+  padding: 30px;
 }
 
 .sponsors-section .header a:hover {
