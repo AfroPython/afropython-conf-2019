@@ -27,10 +27,10 @@ body {
 }
 
 .event-section .information .description {
-  font-size: 0.7em;
+  font-size: 0.9em;
   line-height: 1.4;
-  font-weight: 400;
-  color: #512c0b;
+  font-weight: 200;
+  color: #fff;
 }
 
 .event-section .information .links a {
