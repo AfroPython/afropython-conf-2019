@@ -150,9 +150,19 @@ body {
   margin-bottom: 0;
 }
 
-#talks {
-  background-color: #3e5820;
-  border-top: solid #3e5820 1px;
+#sala-ubunto {
+  background-color: #F24F14;
+  border-top: solid #F24F14 1px;
+}
+
+#sala-sankofa {
+  background-color: #341211;
+  border-top: solid #341211 1px;
+}
+
+#black-voices-sala {
+  background-color: #0139A8;
+  border-top: solid #0139A8 1px;
 }
 
 #workshops {
@@ -200,7 +210,7 @@ body {
 }
 
 footer {
-  background-color: #3e5820;
+  background-color: #F24F14;
   font-weight: lighter;
 }
 
