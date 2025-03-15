@@ -113,6 +113,7 @@ main {
 .sponsors-section .header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .sponsors-section .header a {
@@ -182,8 +183,9 @@ main {
   padding-top: 20px;
 }
 
-
-
+.sponsors-section .div-button {
+  display: flex;
+}
 
 .schedule-section {
   margin: 40px 90px;
@@ -320,6 +322,7 @@ footer .links .social i {
     width: 100%;
     margin-top: 0;
     height: 40px;
+    justify-content: flex-start;
   }
 
   .menu label {
@@ -386,12 +389,11 @@ footer .links .social i {
   }
 
   .sponsors-section .header {
-    align-items: center;
-    display: block;
+    justify-content: space-between;
+    flex-wrap: wrap;
   }
 
   .sponsors-section .header a {
-    padding: 8px 20px 8px 20px;
     margin-left: 0;
     text-align: center;
   }
@@ -406,7 +408,7 @@ footer .links .social i {
   }
 
   .sponsors-section {
-    margin: 20px 20px;
+    padding: 40px;
   }
 
   .sponsors-section .list .info {

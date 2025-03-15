@@ -309,4 +309,8 @@ footer .links .social i:hover {
   #workshops-description-off {
     display: none;
   }
+
+  .sponsors-benefits .header span {
+    font-size: 1.5em;
+  }
 }
