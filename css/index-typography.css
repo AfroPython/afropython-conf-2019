@@ -14,7 +14,7 @@ body {
 .menu li a {
   text-decoration: none;
   font-size: 0.95em;
-  color: #512c0b;
+  color: #fff;
   font-weight: lighter;
 }
 
@@ -27,10 +27,10 @@ body {
 }
 
 .event-section .information .description {
-  font-size: 0.7em;
+  font-size: 0.9em;
   line-height: 1.4;
-  font-weight: 400;
-  color: #512c0b;
+  font-weight: 200;
+  color: #fff;
 }
 
 .event-section .information .links a {
@@ -57,8 +57,15 @@ body {
 
 .sponsors-section h2 {
   font-size: 1.5em;
-  color: #512c0b;
+  color: #fff;
   font-weight: lighter;
+}
+
+.sponsors-section h3 {
+  font-size: 1em;
+  color: #fff;
+  font-weight: bolder;
+  margin: 50px 0;
 }
 
 .sponsors-section .header a {
@@ -66,8 +73,10 @@ body {
   font-size: 0.8em;
   font-weight: lighter;
   border-radius: 2px;
-  background-color: #3e5820;
-  color: #ebebeb;
+  background-color: #d59006;
+  color: #fff;
+  border-radius: 50px;
+  padding: 30px;
 }
 
 .sponsors-section .header a:hover {
@@ -75,13 +84,13 @@ body {
 }
 
 .sponsors-section .placeholder p {
-  font-size: 1em;
+  font-size: 0.9em;
   color: #d45d0d;
 }
 
 .sponsors-section .placeholder.texto-menor p {
   font-weight: lighter;
-  color: #512c0b;
+  color: #fff;
   line-height: 1.1;
   margin-bottom: 15px;
 }
@@ -92,6 +101,18 @@ body {
   color: #512c0b;
   line-height: 1.1;
 }
+
+.sponsors-benefits .header span {
+  font-weight: bold;
+  font-size: 0.9em;
+  color: #0139A8;
+}
+
+.sponsors-benefits .footer p {
+  font-size: 0.7em;
+  margin-top: auto; 
+}
+
 
 .schedule-section .placeholder p {
   font-size: 1em;
@@ -129,9 +150,19 @@ body {
   margin-bottom: 0;
 }
 
-#talks {
-  background-color: #3e5820;
-  border-top: solid #3e5820 1px;
+#sala-ubunto {
+  background-color: #F24F14;
+  border-top: solid #F24F14 1px;
+}
+
+#sala-sankofa {
+  background-color: #341211;
+  border-top: solid #341211 1px;
+}
+
+#black-voices-sala {
+  background-color: #0139A8;
+  border-top: solid #0139A8 1px;
 }
 
 #workshops {
@@ -179,7 +210,7 @@ body {
 }
 
 footer {
-  background-color: #3e5820;
+  background-color: #F24F14;
   font-weight: lighter;
 }
 
@@ -277,5 +308,9 @@ footer .links .social i:hover {
 
   #workshops-description-off {
     display: none;
+  }
+
+  .sponsors-benefits .header span {
+    font-size: 1.5em;
   }
 }
